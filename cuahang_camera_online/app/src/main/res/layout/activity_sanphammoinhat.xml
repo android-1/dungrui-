@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".sanphammoinhat">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v7.widget.Toolbar
+        app:title="Sản phẩm mới nhất"
+        app:titleTextColor="#f20"
+        android:background="#bfbebe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.Toolbar>
+    <ViewFlipper
+        android:id="@+id/viewFlippper"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"></ViewFlipper>
+    <ListView
+        android:id="@+id/ListView_sanphammoinhat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>

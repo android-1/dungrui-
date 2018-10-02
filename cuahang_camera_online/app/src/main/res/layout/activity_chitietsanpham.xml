@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <android.support.v7.widget.Toolbar
+        app:title="Chi tiết sản phẩm"
+        app:titleTextColor="#f20"
+        android:background="#89ccf4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:orientation="horizontal"
+        android:background="#d1d0d0">
+
+        <ImageView
+            android:id="@+id/hinhanh_chitietsanpham"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="vertical"
+            android:background="#d1d0d0">
+
+
+            <TextView
+                android:id="@+id/name_chitietsanpham"
+                android:text="tên"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:textSize="30dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:weightSum="3"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:background="#d1d0d0">
+                <TextView
+                    android:text="giá"
+                    android:textColor="#f20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="16dp"
+                    android:gravity="center"
+                    android:textSize="30dp" />
+                <TextView
+                    android:id="@+id/gia_chitietsanpham"
+                    android:text="giá"
+                    android:textColor="#f20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center"
+                    android:textSize="30dp" />
+            </LinearLayout>
+            <Spinner
+                android:id="@+id/Spinner_chitietsanpham"
+                android:layout_marginLeft="20dp"
+                android:layout_width="150dp"
+                android:layout_height="40dp">
+
+            </Spinner>
+            <Button
+                android:id="@+id/Button_chitietsanpham"
+                android:layout_marginLeft="20dp"
+                android:text="Thêm vào giỏ hàng"
+                android:textColor="#44df51"
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#e6e3e3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:textSize="20dp"
+            android:textColor="#a308f0"
+            android:text="mo ta san pham"
+            android:background="#4eadf6"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/motasanpham"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

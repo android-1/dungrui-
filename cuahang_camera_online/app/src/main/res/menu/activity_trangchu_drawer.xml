@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_trangchu"
+            android:icon="@drawable/ic_trangchu"
+            android:title="trang chủ" />
+        <item
+            android:id="@+id/nav_sanpham1"
+            android:icon="@drawable/ic_sanpham"
+            android:title="HAKVISION " />
+        <item
+            android:id="@+id/nav_sanpham2"
+            android:icon="@drawable/ic_sanpham"
+            android:title="PANASONIC" />
+        <item
+            android:id="@+id/nav_lienhe"
+            android:icon="@drawable/ic_phone"
+            android:title="liên hệ " />
+    </group>
+
+    <item android:title="khách hàng">
+        <menu>
+            <item
+                android:id="@+id/nav_giohang_trangchu"
+                android:icon="@drawable/ic_giohang"
+                android:title="giỏ hàng của tôi" />
+            <!--<item-->
+                <!--android:id="@+id/nav_thongtienkhachhang_trangchu"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="thông tin khách hàng" />-->
+        </menu>
+    </item>
+
+
+</menu>
